@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>`
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="..\css/第三次.css">
+	<title>虾米音乐</title>
+	<style>ul,li{margin:0;padding:0;}
+    li{width:300px;height:150px;position:absolute;opacity:0;}
+     li:first-child{opacity:1}
+     .btn{width:50px;height:30px;background:white;position:absolute;top:50px;line-height:30px;}
+      #next{right:0}</style>	
+</head>
+<body><header class="header">
+		<div class="div"><img src="../20.png"></div>
+		<div class="div3">发现音乐</div>
+		<div class="div4">我的音乐</div>	
+		<div class="container">
+			<div class="item1">歌单</div>
+		    <div class="item2">电台</div>
+		    <div class="item3">音乐人</div>
+		    <div class="item4">客户端</div>
+		</div>
+		<div class="div2"><img src="../14.png">音乐搜索，找人...</div>
+		<div class="container2">
+			<div class="item5">免费注册</div>
+			<div class="item6">立即登录</div>
+		</div>
+      </header>
+	  <main class="main">
+	  	<div class="container1">
+	  		<div class="item7"><font color="#F77C1A">热门</font></div>
+		    <div class="item8">排行榜</div>
+		    <div class="item9">专辑</div>
+		    <div class="item10">艺人·</div>
+		    <div class="item11">风格</div>
+		    <div class="item12"><font color="#F77C1A">寻光计划</font></div>
+	  	</div>
+	  	<div class="container3">
+	  		<div class="item13"><img src="../15.png">兑换码</div>
+		    <div class="item14"><img src="../16.png">vip会员</div>
+		    <div class="item15"><img src="../17.png">最近播放</div>
+		    <div class="item16"><img src="../18.png">下载客户端</div>
+	  	</div>
+	  </main>
+      <footer class="footer">
+      	<div class="wrapper">
+      		<div class="item17">
+      	    <ul>
+      			<li><img src="../5.jpg"></li>
+      			<li><img src="C:\Users\hp\Pictures\images/oq.gif"></li>
+      		</ul>
+      		<div class="btn" id="prev">prev</div>
+      		<div class="btn" id="next">next</div></div>
+      		<script type="text/javascript">
+      			var li = document.getElementsByTagName('li');
+      		    var prev = document.getElementsByTagName("prev");
+      		    var next = document.getElementsByTagName("next");
+      		    var index = 0;
+      		    next.onclick = function(){
+      		    	index ++;
+      		    	if(index == li.length){
+      		    		index = 0;
+      		    	}
+      		    	console.log(index);
+      		    	for(var i = 0;i<li.length;i++){
+      		    		li[i].style.opacity = 0;
+      		    	}li[index].style.opacity = 1;
+      		    }
+      		     		</script>
+      		<div class="item18"><font size="4px">猜你喜欢</font><font color="#F8801D"><font size="2px">/更多</font></font></div>
+      		<div class="item19">
+      			<div class="container4">      				
+		            <div class="item20"><img src="../1.gif"><p><font size="4px">今日推荐歌单</font></p></div>
+		            <div class="item21"><img src="../3.jpg"><p>我已经爱上你</p><br>词情荛</div>
+		            <div class="item22"><img src="../4.jpg"><p>最后我们没在一起</p><br>白小白</div>
+		            <div class="item23"><img src="../6.jpg"><p>YOUNG</p><br>伯贤</div>
+		            <div class="item24"><img src="../7.jpg"><p>THE WAR</p><br>EXO</div>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="warrper1">
+      		<div class="item25">
+      			<div class="wrapper2">
+      				<div class="item28"><font color="#F77C1A"><font size=20px>虾米音乐</font></font>随心而动</div>
+      				<div class="item29">
+      					<div class="container5">
+      						<div class="item30"><img src="../8.png"></div>
+      						<div class="item31">
+      							<div class="wrapper3">
+      								<div class="item32"><img src="../12.png">虾米音乐<br>  for iPhone</div>
+      								<div class="item66"></div>
+      								<div class="item33"><img src="../13.png">虾米音乐<br>  for Android</div>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="item26">
+      			<div class="wrapper4">
+      				<div class="item34">
+      					<div class="container6">
+      						<div class="item38">快速登录</div>
+      						<div class="item39"><img src="../11.png"></div>
+      					</div>
+      				</div>
+      				<div class="item35">
+      					<div class="container7">
+      						<div class="item40"><div class="div10">登录</div></div>
+      						<div class="item41">立即<font color="#F77C1A">免费注册</font></div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="item27">
+      			<div class="wrapper5">
+      				<div class="item36">热门趴间</div>
+      				<div class="item37"><img src="../9.jpg"></div>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="div6">郭俊清 追光者</div>
+      </footer>
+	
+
+</body>
+</html>

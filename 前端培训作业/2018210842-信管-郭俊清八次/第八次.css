@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	text-align: center;
+}
+td{
+	width: 80px;
+	height: 80px;
+	background-color:#D2D3D6;
+	border:1px solid;
+}
+td:active{
+	background-color: red;
+}
+.color{
+	background-color: #F99312;
+	color: white;
+	border:1px solid black;
+}
+table{
+	position:relative;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	font-size: 35px;
+	margin:auto;
+	border-spacing: 0;
+	cursor: pointer;
+}
+input{
+	height: 82px;
+	width: 322px;
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	text-align: right;
+}
+.td1{
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	text-align: right;
+}

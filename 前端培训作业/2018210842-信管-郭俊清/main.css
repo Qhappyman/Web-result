@@ -1,0 +1,315 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: #AED8E6;
+}
+
+.doraA {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 400px;
+  height: 600px;
+}
+.doraA header {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  width: 280px;
+  height: 280px;
+  background-color: #00A6D7;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+.doraA header::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 14px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+.doraA header .eye_left {
+  position: absolute;
+  width: 60px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid grey;
+  top: 4px;
+  left: 75px;
+}
+.doraA header .eye_left::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  background-color: #000;
+  border-radius: 50%;
+  left: 30px;
+  top: 30px;
+}
+.doraA header .eye_right {
+  position: absolute;
+  width: 60px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid grey;
+  top: 2px;
+  left: 136px;
+}
+.doraA header .eye_right::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  background-color: #000;
+  border-radius: 50%;
+  left: 10px;
+  top: 30px;
+}
+.doraA header .nose {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 55px;
+  left: 117px;
+  background-color: #D31537;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.doraA header .nose::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid gray;
+  left: 9px;
+  top: 10px;
+}
+.doraA header .face_left {
+  transform: rotate(5deg);
+  position: absolute;
+  width: 80px;
+  border-top: 2px solid grey;
+  top: 150px;
+  left: 25px;
+}
+.doraA header .face_left::before {
+  content: "";
+  transform: rotate(20deg);
+  position: absolute;
+  width: 75px;
+  border-top: 2px solid grey;
+  top: -40px;
+  left: 5px;
+}
+.doraA header .face_left::after {
+  content: "";
+  transform: rotate(-25deg);
+  position: absolute;
+  width: 75px;
+  border-top: 2px solid grey;
+  top: 40px;
+  left: 5px;
+}
+.doraA header .face_mid {
+  position: absolute;
+  height: 134px;
+  border-left: 2px solid grey;
+  top: 97px;
+  left: 138px;
+}
+.doraA header .face_right {
+  transform: rotate(180deg);
+  position: absolute;
+  width: 80px;
+  border-top: 2px solid grey;
+  top: 150px;
+  left: 170px;
+}
+.doraA header .face_right::before {
+  content: "";
+  transform: rotate(20deg);
+  position: absolute;
+  width: 75px;
+  border-top: 2px solid grey;
+  top: -40px;
+  left: 5px;
+}
+.doraA header .face_right::after {
+  content: "";
+  transform: rotate(-25deg);
+  position: absolute;
+  width: 75px;
+  border-top: 2px solid grey;
+  top: 40px;
+  left: 5px;
+}
+.doraA header .mouse {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid grey;
+  border-radius: 50%;
+  top: -170px;
+  left: -10px;
+}
+.doraA .tie {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  left: 100px;
+  top: 270px;
+  background-color: #DA032F;
+  border: 1px solid gray;
+  z-index: 1000;
+}
+.doraA .body {
+  position: absolute;
+  width: 200px;
+  height: 140px;
+  left: 100px;
+  top: 292px;
+  background-color: #00A6D7;
+  border-top: 1px solid gray;
+  z-index: 200;
+}
+.doraA .body .bell {
+  z-index: 3000;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 76px;
+  top: -2px;
+  background-color: #F7EB3D;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.doraA .body .bell::before {
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid grey;
+  border-radius: 50%;
+  top: -20px;
+  left: -5px;
+}
+.doraA .body .bell::after {
+  content: "";
+  position: absolute;
+  background-color: #866B62;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border-bottom: 1px solid grey;
+  left: 14px;
+  top: 24px;
+}
+.doraA .body .onaka {
+  position: absolute;
+  width: 160px;
+  height: 120px;
+  left: 20px;
+  top: -3px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.doraA .body .onaka .pocket {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  top: 80px;
+  left: 27px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 0 0 100px 100px;
+}
+.doraA .hand_left {
+  position: absolute;
+  width: 40px;
+  height: 100px;
+  top: 240px;
+  left: 55px;
+  background-color: #00A6D7;
+  transform: rotate(-70deg);
+  border: 1px solid grey;
+}
+.doraA .hand_left::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: -6px;
+  top: -30px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+.doraA .hand_right {
+  position: absolute;
+  width: 40px;
+  height: 100px;
+  top: 240px;
+  left: 305px;
+  background-color: #00A6D7;
+  transform: rotate(70deg);
+  border: 1px solid grey;
+}
+.doraA .hand_right::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: -6px;
+  top: -30px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+.doraA footer .left_leg {
+  z-index: 4000;
+  position: absolute;
+  width: 100px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: #00A6D7;
+  border: 1px solid grey;
+  left: 85px;
+  top: 385px;
+}
+.doraA footer .mid_leg {
+  z-index: 5000;
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  left: 175px;
+  top: 385px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+.doraA footer .right_leg {
+  z-index: 4000;
+  position: absolute;
+  width: 100px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: #00A6D7;
+  border: 1px solid grey;
+  left: 215px;
+  top: 385px;
+}
+
+/*# sourceMappingURL=main.css.map */

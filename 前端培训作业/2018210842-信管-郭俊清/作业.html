@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>反向输出汉字</title>
+</head>
+<body>
+	<script>
+		   var a = prompt("请输入数字") ;
+		   function b()
+		   {		   
+		    var c;		 
+		   	for(var i = a.length-1;i>=0;i--)
+            {
+            	c=d(a[i]); document.write(c);
+		    }
+		   }		    
+		    b();
+		   function d(elect){
+		   	switch(elect)
+		   	{
+		   	case "1": return"壹";
+		   	case "2": return"贰";
+		   	case "3": return"叁";
+		    }
+		    }
+	</script>
+
+</body>
+</html>

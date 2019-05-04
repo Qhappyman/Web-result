@@ -1,0 +1,174 @@
+body{
+	background-image: url(./寒假.jpg);
+	}
+div {
+	font-size: 23px;
+	border-radius: 15px;
+	}
+li {
+	line-height: 50px;
+   }
+#continer
+	{
+	height: 400px;
+	width: 700px;
+	position: relative;
+	left: 350px;
+	top: 100px;
+	font-family: sans-serif;
+	font-style: oblique;
+	line-height: 60px;
+	box-shadow: 10px 10px 5px #888888;
+	border:15px solid transparent;
+	-webkit-border-image:url(./寒假.png) 30 30 round; /* Safari 5 and older */
+	-o-border-image:url(./寒假.png) 30 30 round; /* Opera */
+	border-image:url(./寒假.png) 30 30 round;
+	}
+a  {
+	position: absolute;
+	bottom: 170px;
+	left: 540px;
+	height: 45px;
+	color:#7744FF;
+	text-decoration: none;
+	background-color:#DDDDDD;
+	border-radius: 10px;
+	line-height: 45px;
+	}
+a:hover
+	{
+	height: 50px;
+	transition-duration: 0.5s;
+	}
+#test:hover
+	{
+	height: 510px;
+	width: 310px;
+	transition-duration: 0.8s;
+	}
+#foot:hover
+	{
+	height: 53px;
+	width: 158px;
+	transition-duration: 0.2s;
+	background-color:#FF3333;
+	}
+#header:hover
+	{
+	height: 53px;
+	width: 158px;
+	transition-duration: 0.2s;
+	background-color:#FF77FF;
+	}
+#finish{
+	position: absolute;
+	bottom: 170px;
+	left: 540px;
+	height: 45px;
+	color:#7744FF;
+	font-style: normal;
+	background-color:#DDDDDD;
+	border-radius: 10px;
+	line-height: 45px;	
+	 }
+#left{
+	height: 500px;
+	width: 260px;
+	text-align: center;
+	position: absolute;
+	left: 30px;
+	top: 60px;
+	background-color:#AAAAFF;
+	font-size: 20px;
+	}
+#header{
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	position: absolute;
+	top: 25px;
+	left: 500px;
+	background-color:#DEDEBE;
+	line-height: 45px;
+	font-weight: 50px;
+	}
+#foot{
+	height: 50px;
+	width: 150px;
+	background-color:#FFDAC8;
+	position: absolute;
+	top: 25px;
+	right: 550px;
+	font-size: 26px;
+	text-align: center;
+	line-height: 45px;
+	}
+#footer{
+	height: 60px;
+	width: 210px;
+	background-color: #7D7DFF;
+	position: absolute;
+	top: 550px;
+	right:700px;
+	color:green;
+	font-weight: 20px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 45px;
+	}
+#test{
+	height: 500px;
+	width: 300px;
+	background-color:#AAAAFF;
+	position: absolute;
+	top: 60px;
+	right: 80px;
+	text-align: center;
+	color: #CE0000;
+	}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9,#div10
+	{
+	height: 400px;
+	width: 700px;
+	position: absolute;
+	}
+#div1
+	{
+	background-color:#ADFF2F;
+	}
+#div2
+	{
+	background-color:#E6E6FA;
+	}
+#div3
+	{
+	background-color:#FAFAD2;
+	}
+#div4
+	{
+	background-color:#87CEFA;
+	}
+#div5
+	{		
+	background-color:#FFF0F5;
+	}
+#div6
+	{
+	background-color:#7FFFD4;
+	}
+#div7
+	{
+	background-color:pink;
+	}
+#div8
+	{
+	background-color:#B0C4DE;
+	}
+#div9
+	{	
+	background-color:#FFF8DC;
+	}
+#div10
+	{
+	background-color:#FFD700;
+	}

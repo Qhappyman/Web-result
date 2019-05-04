@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>作用域链</title>
+	<style>
+		p{font-size: 25px;}
+	</style>
+</head>
+<body>
+    <p>a被定义时0:GO</p>
+    <p>a执行时0:aAO 1:GO</p>
+    <p>b被定义时0:aAO  1:GO</p>
+    <p>b被执行时0:bAO 1aAO 2GO</p>
+    <p>c被定义时0:bAO 1aAO 2GO</p>
+    <p>c被执行时0:cAO 1bAO 2aAO 3GO</p>
+
+</body>
+</html>
