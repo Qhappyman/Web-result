@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    border:0px;
+}
+#contine{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin:100px auto 0 auto;
+    overflow: hidden;
+}
+#wrap{
+    position: absolute;
+    left: -600px;
+    height: 400px;
+    width: 3000px;
+}
+img {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+#next{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 10px;
+    border-radius: 50%;
+    background-color: blue;
+}
+#per{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 196, 0);
+    left: 40px;
+}
+#button{
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    top: 600px;
+    left:500px;
+}
+#button span{
+    margin-left: 4px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+#next:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+#per:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
